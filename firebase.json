@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true
+  },
+  "emulators": {},
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+  }
+}
