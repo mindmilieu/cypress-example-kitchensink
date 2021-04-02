@@ -65,7 +65,7 @@ After forking this project in `Github`, run these commands:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress-example-kitchensink.git
+git clone https://github.com/mindmilieu/cypress-example-kitchensink.git
 
 ## cd into the cloned repo
 cd cypress-example-kitchensink
@@ -75,6 +75,9 @@ npm install
 
 ## start the local webserver
 npm start
+
+## start the local webserver2
+npm run start:ci:windows
 ```
 
 The `npm start` script will spawn a webserver on port `8080` which hosts the Kitchen Sink App.
