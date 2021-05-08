@@ -74,9 +74,6 @@ cd cypress-example-kitchensink
 npm install
 
 ## start the local webserver
-npm start
-
-## start the local webserver2
 npm run start:ci:windows
 ```
 
